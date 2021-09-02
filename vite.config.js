@@ -4,7 +4,7 @@ const autoPublic = require('./myPlugin.js')
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [reactRefresh(), autoPublic()],
+  plugins: [reactRefresh()],
   base: './',
   // publicDir: false,
   build: {
