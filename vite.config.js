@@ -7,7 +7,6 @@ export default defineConfig({
   plugins: [reactRefresh(), autoPublic()],
   base: './',
   // publicDir: false,
-  outDir: 'build',
   build: {
     sourcemap: false,
     brotliSize: false
